@@ -1,1 +1,37 @@
 Fill in the passphrases here.
+
+Q1
+Passcode for question 1: greenEggsAndHam
+
+Q2
+question2="iHateCplusplus"
+
+Q3
+Passcode for question 3: HTMLRocks
+
+Q4
+<question-four style="display:none">Passcode: JavaScriptRules</question-four>
+
+Q5
+Question 5 Passcode: SvelteBeatsReact
+
+Q6 and Q7
+// Question 6 Passcode: ThisIsJS
+console.log('Question 7 Passcode: YouFoundMe');
+
+Q8
+Question 8 passcode: coolcoolcool
+
+Q9
+Question 9 passcode: 2020sucked
+
+Q10
+btn.addEventListener('click', () => {
+  fetch('./question10.jpg');
+});
+
+Q11
+"question11" content="a11yComesFirst"
+
+Q12
+data-question12passcode="iLoveWebDev"
