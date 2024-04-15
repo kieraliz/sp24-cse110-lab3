@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta chartset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Set Production Minutes</title>
   </head>
   <body>
@@ -21,7 +19,7 @@
         </nav>
     </header>
     <main>
-        <img src="\screenshots\WB.png" alt="Warner Bros studio" width="50%">
+        <img src="screenshots/WB.png" alt="Warner Bros studio" width="840">
         
         <h1>Movie Production Minutes</h1>
         <h2>Check-ins</h2>
@@ -47,9 +45,10 @@
             <p><b>Quote of the Day</b>: Come Prepared and Ready to Make a Movie!</p>
 
         <h3 id="previous-meeting">Unfinished Items from Previous Meeting: Friday, April 12th 2024</h3>
-            <ul>
-                <input type="checkbox"/>Send call sheet to the on-set crew
-            </ul>        
+            <div>
+                <input type="checkbox" id="call-sheet" name="call-sheet" unchecked />
+                <label for="call-sheet">Send call sheet to the on-set crew</label>
+            </div>          
 
         <h4>Discussion</h4>
             <p>Final review of <a href="https://www.vintagememorabilia.com/wp-content/uploads/80C27CB6-1517-6111-28FBB4F4CC559E6F.jpg" target="_blank">Call Sheet Day 1 (4/15)</a> 
@@ -82,7 +81,7 @@
                 </details>
 
         <h2 id="production-schedule">Monday's Production Schedule</h2>
-            <img src="\screenshots\production-schedule.png" alt="Day 1 Production Schedule" width="50%">
+            <img src="screenshots/production-schedule.png" alt="Day 1 Production Schedule" width="840">
         
 
         <h2 id="notes">Additional Notes</h2>
@@ -100,19 +99,17 @@
         <p></p>
 
         <audio controls>
-            <source src="\screenshots\minutes-audio.mp3" type="audio/ogg">
-            <source src="\screenshots\minutes-audio.mp3" type="audio/mpeg">
+            <source src="screenshots/minutes-audio.mp3" type="audio/ogg">
+            <source src="screenshots/minutes-audio.mp3" type="audio/mpeg">
             Your browser does not support the audio tag.
         </audio>
 
         <p></p>
 
         <video width="360" height="240" controls>
-            <source src="\screenshots\minutes-video.mp4" type="video/mp4">
+            <source src="screenshots/minutes-video.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-
     </main>
   </body>
-
 </html>
