@@ -7,8 +7,8 @@
 | | TO DO | IN PROGRESS | READY FOR REVIEW | DONE
 |-|-|-|-|-|
 | Person 1 | - task <br> - task| | | |
-| Person 2 | | | -task <br> - task| |
-| Person 3 | |- task <br> - task | | -task |
+| Person 2 | | | - task <br> - task| |
+| Person 3 | |- task <br> - task | | - task |
 
 ### Name: _____
 
