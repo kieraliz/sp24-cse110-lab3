@@ -5,8 +5,8 @@ Warner Bro brand colors: #2B2ECC, #FFC100
 
 /* All h2 headers */
 h2 {
-    background-color: #FFC100;
-    color: #2B2ECC
+    background-color: hsl(45, 100%, 50%);
+    color: color(display-p3 0.17 0.18 0.80);
 }
 
 /* 
@@ -30,7 +30,7 @@ Border of Movie Production Schedule
 */
 .border {
     border-style: dashed;           /* longhand border, 1 absolute unit, 1 relative unit */
-    border-color: lightgrey;
+    border-color: hwb(0 83% 17%);
     border-width: 2mm;
     border-radius: 2em;    
     margin: 10px 1cm;               /* shorthand margin, 2 absolute units */
@@ -51,7 +51,7 @@ h3 {
 
 /* 
 DONE: color, variables and fallbacks, background, units, shorthand margin, shorthand padding, borders (short/long), text
-NEED: inline and external CSS, sizing (height, max/min width)
+NEED: inline and external CSS, wider-gamut color-mix, sizing (height, max/min width)
 */
 
 
