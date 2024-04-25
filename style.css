@@ -1,0 +1,57 @@
+/* 
+This is an external CSS style sheet to edit the index.html file
+Warner Bro brand colors: #2B2ECC, #FFC100
+*/
+
+/* All h2 headers */
+h2 {
+    background-color: #FFC100;
+    color: #2B2ECC
+}
+
+/* 
+Title image of Warner Bros + Movie Production Minutes  
+*/
+.container {
+    position: relative;                           /* position */
+}
+.image-text {
+    color: var(--my-var, #FFFFFF);              /* color */
+    background-color: rgba(43, 46, 204, 0.6);   /* background, variables and fallbacks, absolute unit */
+    text-align: center;                           /* text */
+    width: 100%;                                  /* sizing, relative unit */
+    position: absolute;                           /* position */
+    border: 2px solid whitesmoke;               /* shorthand border, absolute unit */
+    bottom: 10%;                                  /* relative unit */
+}
+
+/* 
+Border of Movie Production Schedule 
+*/
+.border {
+    border-style: dashed;           /* longhand border, 1 absolute unit, 1 relative unit */
+    border-color: lightgrey;
+    border-width: 2mm;
+    border-radius: 2em;    
+    margin: 10px 1cm;               /* shorthand margin, 2 absolute units */
+    padding: 2rem;                  /* shorthand padding, 1 relative unit */
+}
+
+/* Previous meeting, Director and Producer's report */
+h3 {
+    display: inline-block;
+}
+
+/* Quote of the Day */
+.quote {
+    margin: auto;
+    display: inline;
+    font-size: x-large;
+}
+
+/* 
+DONE: color, variables and fallbacks, background, units, shorthand margin, shorthand padding, borders (short/long), text
+NEED: inline and external CSS, sizing (height, max/min width)
+*/
+
+

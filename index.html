@@ -2,10 +2,11 @@
 <html lang="en">
   <head>
     <title>Set Production Minutes</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-        <div>Navigate Page</div>
+        <div>Navigation Page</div>
         <nav>
             <ul>
                 <li><a href="#agenda">Agenda</a></li>
@@ -19,11 +20,15 @@
         </nav>
     </header>
     <main>
-        <img src="screenshots/WB.png" alt="Warner Bros studio" width="840">
-        
-        <h1>Movie Production Minutes</h1>
-        <h2>Check-ins</h2>
-        <h2>Sunday, April 14th 2024</h2>
+
+        <div class="container">
+            <img src="screenshots/WB.png" alt="Warner Bros studio" width="100%">
+            <div class="image-text">
+                <h1>Movie Production Minutes</h1>
+                <p>Check-ins</p>
+                <p>Sunday, April 14th 2024</p>
+            </div>
+          </div>
 
         <h2>Attendees</h2>
         <p>Director's Staff and the Leading Production Department staff</p>
@@ -42,7 +47,7 @@
                 <li>Reports and Updates</li>
                 <li>Finalize and send production schedule</li>
             </ol>
-            <p><b>Quote of the Day</b>: Come Prepared and Ready to Make a Movie!</p>
+            <p><b class="quote">Quote of the Day</b>: Come Prepared and Ready to Make a Movie!</p>
 
         <h3 id="previous-meeting">Unfinished Items from Previous Meeting: Friday, April 12th 2024</h3>
             <div>
@@ -81,7 +86,7 @@
                 </details>
 
         <h2 id="production-schedule">Monday's Production Schedule</h2>
-            <img src="screenshots/production-schedule.png" alt="Day 1 Production Schedule" width="840">
+            <img class="border" src="screenshots/production-schedule.png" alt="Day 1 Production Schedule" width="840">
         
 
         <h2 id="notes">Additional Notes</h2>
