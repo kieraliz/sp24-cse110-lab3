@@ -3,12 +3,20 @@
   <head>
     <title>Set Production Minutes</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: whitesmoke;
+        }
+        a {
+            color: #2B2ECC;
+        }
+    </style>
   </head>
   <body>
     <header>
-        <div>Navigation Page</div>
+        <div id="navigation-page" style="color:darkslategrey"></div>
         <nav>
-            <ul>
+            <ul class="navigation">
                 <li><a href="#agenda">Agenda</a></li>
                 <li><a href="#previous-meeting">Previous Meeting</a></li>
                 <li><a href="#reports">Reports and Updates</a></li>
@@ -20,7 +28,7 @@
         </nav>
     </header>
     <main>
-
+        <p></p>
         <div class="container">
             <img src="screenshots/WB.png" alt="Warner Bros studio" width="100%">
             <div class="image-text">
@@ -56,25 +64,25 @@
             </div>          
 
         <h4>Discussion</h4>
-            <p>Final review of <a href="https://www.vintagememorabilia.com/wp-content/uploads/80C27CB6-1517-6111-28FBB4F4CC559E6F.jpg" target="_blank">Call Sheet Day 1 (4/15)</a> 
+            <p id="discussion-body1">Final review of <a href="https://www.vintagememorabilia.com/wp-content/uploads/80C27CB6-1517-6111-28FBB4F4CC559E6F.jpg" target="_blank">Call Sheet Day 1 (4/15)</a> 
                 outlining who needs to be where and when</p>
-            <p>No issues or concerns, sent to Monday's on-set crew</p>
+            <p id="discussion-body2">No issues or concerns, sent to Monday's on-set crew</p>
 
         <h2 id="reports">Report and Updates</h2>
-            <h3>Director's Report</h3>
+            <h3 id="directors-report">Director's Report</h3>
                 <p>Firstly, Powell reported that our budget is covered; All funding and investments from Warner Bro's has been secured as of last week.</p>
                 <p>Secondly, the Director's staff will meet with cast prior to filming on Monday morning. 
                     It is very important to know each other for team building and it will be easy for the cast to cooperate well on set.</p>
-                <p>Lastly, we will increase the frequency of these Production Department to every two weeks. 
+                <p style="width:80%; max-width: 80%">Lastly, we will increase the frequency of these Production Department to every two weeks. 
                     This will help the Director's staff align with the efforts of the production deparment to ensure that the movie is on track. 
                     Additionally, Powell has arranged quarterly meetings with Warner Bro board to report the status of the filming, and discuss any problems or issues that concern the studio. 
                     These quarterly meetings start in June and this staff is expected to attend.</p>
                 
-            <h3>Producer's Report</h3>
+            <h3 id="producers-report" style="height:auto">Producer's Report</h3>
                 <p>Firstly, Kiera has confirmed that the Art Department is ready for production, 
                     she has received confirmation from the following teams: hair/makeup, costumes, set dressers, set decorations, and construction</p>
                 <p>Secondly, we are using Warner Bro's new technologies for Visual FX and Special FX graphics. The staff is trained with the new equipment and will be ready to film.</p>
-                <p>Lastly, Kiera has received confirmation that the marketing team will join the starff after Quarter 1 of filming. 
+                <p style="min-width: 80%">Lastly, Kiera has received confirmation that the marketing team will join the starff after Quarter 1 of filming. 
                     By this time, we will have film content ready for marketing, trailers, etc, and Kiera can begin coordinating publicity efforts and interviews.</p>
                 <details>
                     <summary>Dependencies</summary>
@@ -86,7 +94,7 @@
                 </details>
 
         <h2 id="production-schedule">Monday's Production Schedule</h2>
-            <img class="border" src="screenshots/production-schedule.png" alt="Day 1 Production Schedule" width="840">
+            <img class="schedule" src="screenshots/production-schedule.png" alt="Day 1 Production Schedule" width="840">
         
 
         <h2 id="notes">Additional Notes</h2>
