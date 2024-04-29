@@ -1,0 +1,133 @@
+/* 
+This is an external CSS style sheet to edit the index.html file
+Warner Bro brand colors: #2B2ECC, #FFC100
+*/
+
+/* All h2 headers */
+h2, h3 {
+    background-color: hsl(45, 100%, 50%);
+    color: color(display-p3 0.17 0.18 0.80);
+}
+
+/* 
+Title image of Warner Bros + Movie Production Minutes  
+*/
+.container {
+    position: relative;                           /* position */
+}
+.image-text {
+    color: var(--my-var, #FFFFFF);              /* color */
+    background-color: rgba(43, 46, 204, 0.6);   /* background, variables and fallbacks, absolute unit */
+    text-align: center;                           /* text */
+    width: 100%;                                  /* sizing, relative unit */
+    position: absolute;                           /* position */
+    border: 2px solid whitesmoke;               /* shorthand border, absolute unit */
+    bottom: 10%;                                  /* relative unit */
+}
+.image-text:hover {
+    background-color: rgba(43, 46, 204, 0.8);
+}
+
+/* 
+Border of Movie Production Schedule 
+*/
+.schedule {
+    border-style: dashed;           /* longhand border, 1 absolute unit, 1 relative unit */
+    border-color: hwb(0 83% 17%);
+    border-width: 2mm;
+    border-radius: 2em;    
+    margin: 10px 1cm;               /* shorthand margin, 2 absolute units */
+    padding: 2rem;                  /* shorthand padding, 1 relative unit */
+}
+
+a:active {
+  color: red;
+}
+
+/* Previous meeting, Director and Producer's report */
+h3 {
+    display: inline-block;
+    margin-top: 2%;                 /* longhand magin, 1 relative unit */
+}
+
+* {
+    font-family: Georgia;
+  }
+
+/* Quote of the Day */
+.quote {
+    margin: auto;
+    display: inline;
+    font-size: x-large;
+
+}
+
+/* Navigation Bar with Flex */
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;    
+    list-style: none;
+    margin: 0; 
+    background: #2B2ECC;
+}
+.navigation a {
+    text-decoration: solid;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+.navigation a:hover {
+    background: #FFC100;
+    color: #2B2ECC;
+}
+@media all and (max-width: 800px) {
+    .navigation {
+        justify-content: space-around;
+    }
+}
+@media all and (max-width: 600px) {
+    .navigation {
+        flex-flow: column wrap;
+        padding: 0;
+    }    
+    .navigation a { 
+        text-align: center; 
+        padding: 10px;
+        border-top: 1px solid rgba(255, 255, 255,0.3); 
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+        border-bottom: none;
+    }
+}
+
+#discussion-body1, #discussion-body2 {
+    padding-left: 1.5%;             /* longhand padding, 1 relative unit */
+    
+}
+
+#directors-report {
+    background-color: color-mix(in srgb, #FFC100 50%, white);
+}
+
+#directors-report-3 {
+    width: 50%;
+    max-width: 50%;
+}
+
+#producers-report {
+    background-color: color-mix(in srgb, #FFC100 75%, white);
+}
+
+.quote:hover {
+    color: red;
+}
+
+/* 
+DONE: color, variables and fallbacks, background, units, margin (short/long/auto), padding (short/long), borders (short/long),
+ text, display, sizing, position, pseudo-class, layout (Flex), fonts
+NEED: grid layout, responsiveness
+*/
+
+
